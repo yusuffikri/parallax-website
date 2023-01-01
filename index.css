@@ -82,7 +82,8 @@ header {
 }
 
 #about {
-  padding-top: 25px;
+  position: relative;
+  padding: 100px;
   background-color: #003329;
 }
 
