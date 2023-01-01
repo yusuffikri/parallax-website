@@ -83,11 +83,13 @@ header {
 
 #about {
   padding-top: 25px;
-  background-color: #359381;
+  background-color: #003329;
 }
 
 .about-text {
   padding-top: 25px;
+  padding-bottom: 10rem;
+  font-weight: 300;
   text-align: justify;
   color: #fff;
 }
