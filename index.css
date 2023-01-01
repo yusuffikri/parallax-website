@@ -79,6 +79,7 @@ header {
   align-items: center;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 2.5rem;
 }
 
 #about {
@@ -88,9 +89,13 @@ header {
 }
 
 .about-text {
-  padding-top: 25px;
-  padding-bottom: 10rem;
   font-weight: 300;
   text-align: justify;
   color: #fff;
+}
+
+#services {
+  position: relative;
+  padding: 100px;
+  background-color: #003329;
 }
