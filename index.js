@@ -7,7 +7,7 @@ let hill5 = document.getElementById("hill5");
 window.addEventListener("scroll", () => {
   let value = window.scrollY;
 
-  parallax__text.style.marginTop = value * 1.5 + "px";
+  parallax__text.style.marginTop = value * 1 + "px";
   leaf.style.top = value * -1.5 + "px";
   leaf.style.left = value * 1.5 + "px";
   hill5.style.left = value * 1.5 + "px";

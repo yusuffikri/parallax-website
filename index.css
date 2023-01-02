@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f9f9f9;
   min-height: 100vh;
@@ -25,11 +29,18 @@ header {
   z-index: 100;
 }
 
-svg {
+.svg-color1 {
   height: 50%;
   width: 100%;
   background: #003329;
 }
+
+.svg-color2 {
+  height: 50%;
+  width: 100%;
+  background: #fff;
+}
+
 .logo {
   font-size: 2em;
   font-weight: bold;
@@ -98,19 +109,13 @@ svg {
   padding: 2.5rem;
 }
 
-#about {
-  position: relative;
-  padding: 100px;
-  background-color: #003329;
-}
-
 .about-text {
   font-weight: 300;
   text-align: justify;
   color: #fff;
 }
 
-#services {
+.section-color2 {
   position: relative;
   padding: 50px;
   background-color: #fff;
@@ -119,9 +124,11 @@ svg {
 .card-slider-container {
   display: flex;
   overflow-x: auto;
+  cursor: grab;
 }
 
 .card-container {
+  cursor: grab;
   flex: 0 0 auto;
   width: 300px;
   height: 400px;
@@ -166,4 +173,10 @@ svg {
   border: none;
   border-radius: 5px;
   text-decoration: none;
+}
+
+.section-color1 {
+  position: relative;
+  padding: 50px;
+  background-color: #003329;
 }
