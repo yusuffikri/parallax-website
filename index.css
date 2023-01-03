@@ -95,7 +95,7 @@ header {
   align-items: center;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 2.5rem;
+  padding-top: 1rem;
 }
 
 .text-title2 {
@@ -106,13 +106,33 @@ header {
   align-items: center;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 2.5rem;
+  padding-top: 1rem;
+}
+
+.sub-text1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #003329;
+  font-weight: 300;
+}
+
+.sub-text2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 300;
 }
 
 .about-text {
   font-weight: 300;
   text-align: justify;
   color: #fff;
+}
+
+.section-color1 {
+  position: relative;
+  padding: 50px;
+  background-color: #003329;
 }
 
 .section-color2 {
@@ -124,7 +144,7 @@ header {
 .card-slider-container {
   display: flex;
   overflow-x: auto;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .card-container {
@@ -173,10 +193,4 @@ header {
   border: none;
   border-radius: 5px;
   text-decoration: none;
-}
-
-.section-color1 {
-  position: relative;
-  padding: 50px;
-  background-color: #003329;
 }
