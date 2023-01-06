@@ -196,70 +196,51 @@ header {
 }
 
 /* Testimonials */
-.container-testimonials {
+
+.cointainer__testimonials {
   max-width: 1200px;
-  width: 100%;
-  position: relative;
   margin: 0 auto;
+  width: 100%;
+}
+
+.card__testimonials {
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card__testimonials img {
+  margin-top: -85px;
+  width: 130px;
+  border-radius: 50%;
 }
 
 .mySwiper {
-  max-width: 1100px;
-  height: 100vh;
   display: flex;
+  min-height: 100vh;
   align-items: center;
 }
 
-.card {
-  text-align: center;
-  background-color: #ffffff;
-  padding: 20px 30px;
-  border-radius: 10px;
-  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
-}
-.swiper-slide {
-  display: flex;
-  align-items: center;
-}
-
-.card img {
-  width: 130px;
-  border-radius: 50%;
-  margin-top: -70px;
-}
-
-.testimonials-h3,
-.testimonials-h4 {
+.name__testimonials,
+.job__testimonials {
   margin-bottom: 0px;
-  margin-top: 0px;
 }
 
-.testimonials-p {
-  font-size: 15px;
-  line-height: 20px;
-  color: #222222;
-}
-
-.testimonials-h3 {
-  font-size: 16px;
-}
-
-.testimonials-h4 {
-  font-size: 12px;
+.name__testimonials {
+  font-weight: 600;
   margin-top: 10px;
-  color: #0096ff;
+  font-size: 20px;
 }
 
-.swiper-button-next,
-.swiper-rtl .swiper-button-prev {
-  color: #0096ff;
+.job__testimonials {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 0px;
+  color: #003329;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  font-size: 32px;
-}
-
-.review i {
-  color: orange;
+.text__testimonials {
+  font-size: 13px;
 }
